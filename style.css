@@ -48,3 +48,31 @@ body {
     margin-bottom: 10px;
 }
 
+.card__published {
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.card__title {
+    font-size: 22px;
+    color: hsl(47, 88%, 63%);
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.card__autor {
+    display: flex;
+    gap: 10px;
+}
+
+.card__avatar {
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.avatar__name {
+    margin-top: 19px;
+    font-weight: 800;
+}
