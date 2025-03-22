@@ -58,7 +58,7 @@ body {
 
 .card__title {
     font-size: 22px;
-    color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 7%);
     margin-bottom: 16px;
     font-weight: 800;
 }
@@ -68,6 +68,9 @@ body {
     cursor: pointer;
 }
 
+.card__information--color {
+    color: hsl(0, 0%, 42%);
+}
 .card__autor {
     display: flex;
     gap: 10px;
